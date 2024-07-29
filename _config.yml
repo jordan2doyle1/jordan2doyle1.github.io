@@ -1,0 +1,211 @@
+# Site
+repository: jordan2doyle1/jordan2doyle1.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jordan Doyle
+title: Research Software Engineer in Automated Software Testing
+email: jordandoyle100@gmail.com
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+# website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: jekyllrb
+github_username: jordan2doyle1
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: jordan-doyle-33134199
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+orcid_username: 0009-0001-3448-351X
+googlescholar_username: jdoehQEAAAAJ
+
+# Additional icon links
+additional_links:
+- title: Research Gate
+  icon: fab fa-researchgate
+  url: https://www.researchgate.net/profile/Jordan-Doyle-3
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I recently defended my Ph.D. thesis with [SFI Lero](https://lero.ie/) and the [School of Computer Science](https://ucd.ie/cs/) in [University College Dublin](https://ucd.ie), Ireland. I am currently a Research Software Engineer in the [School of Computer Science and Statistics](https://tcd.ie/scss/) at [Trinity College Dublin](https://tcd.ie/), Ireland, where I am also a member of the [Complex Software Laboratory](https://csl.scss.tcd.ie/), [SFI Lero](https://lero.ie/), and I work in conjunction with [Fidelity Investments](https://fidelityinvestments.ie/), Ireland.
+
+  My interest is mainly in Software Engineering, with my research focusing on developing and improving automated test generation solutions. During my Ph.D., I developed an automated model-based approach to generate test inputs for Android mobile applications. Currently, I am collaborating with [Fidelity Investments](https://fidelityinvestments.ie/), Ireland, researching automated testing solutions to detect accessibility defects in web applications.
+
+content:
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       border: weak  # Value of `weak` will display a weak border below this item. # Any 
+  #                     # other value (or no value) means no border will be displayed
+  #       title: Project name
+  #       link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #       link_text: Link Text
+  #       additional_links:
+  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           icon: fab fa-github
+  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           icon: fab fa-github
+  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #       quote: >
+  #         Short overview of the project (optional)
+  #       description: | # this will include new lines to allow paragraphs
+  #         Description about the work on/with the project
+  - title: Education
+    layout: list
+    content:
+      - layout: top-middle
+        title: School of Computer Science @ University College Dublin
+        link: https://ucd.ie/cs/
+        quote: >
+          The School of Computer Science at University College Dublin is the largest computer science department in Ireland, with top ranking B.Sc. Honours, Masters, and structured Ph.D. degree programmes.
+      - layout: left 
+        sub_title: Ph.D. in Computer Science
+        caption: September 2017 - January 2024
+        description: | # this will include new lines to allow paragraphs
+          I completed my Ph.D. degree in [UCD](https://ucd.ie) with [SFI Lero](https://lero.ie/) and the [Complex Software Laboratory](https://csl.scss.tcd.ie/). I learned the skills to conduct valuable research and effectively communicate and solve complex problems. Over the course of the degree, I published and presented three research papers at highly regarded conferences.
+
+          The thesis for my Ph.D. focused on how I designed, implemented, and evaluated both a comprehensive model of Android mobile applications using a combination of static and dynamic analysis and an automated model-based approach to generate test inputs for Android mobile applications using those same models.
+      - layout: left
+        sub_title: B.Sc. in Computer Science (2:1)
+        caption: September 2013 - August 2017
+        description: | # this will include new lines to allow paragraphs
+          During my undergraduate degree at [UCD](https://ucd.ie), I learnt lots of key skills such as teamwork and project management. The core of the degree focused on well-rounded background knowledge and practical skills, while later years focused on software development and the principles of programming.
+
+          The final part of the degree was a final year project that included a research report and a presentation to the school of computer science faculty. For this project, I designed and implemented an end-to-end eReceipts delivery system consisting of a backend database and server, application layer protocol, and a mobile frontend application.
+  - title: Publications
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      * **Jordan Doyle**, Thomas Laurent, and Anthony Ventresque. PADRAIG: Precise Android Automated Input Generation. In [*2024 24th IEEE International Conference on Software Quality, Reliability, and Security (QRS)*](https://qrs24.techconf.org/), IEEE, 2024
+      * **Jordan Doyle**, Thomas Laurent, and Anthony Ventresque. [Modelling android applications through static analysis and systematic exploratory testing](https://doi.org/10.1109/DSA59317.2023.00022). In [*2023 10th International Conference on Dependable Systems and Their Applications (DSA)*](https://dsa23.techconf.org/), pages 94–104. IEEE, 2023
+      * **Jordan Doyle**, Takfarinas Saber, Paolo Arcaini, and Anthony Ventresque. [Improving mobile user interface testing with model driven monkey search](https://doi.org/10.1109/ICSTW52544.2021.00034). In [*2021 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW)*](https://icst2021.icmc.usp.br/), pages 138–145. IEEE, 2021
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Trinity College Dublin
+        sub_title: Research Software Engineer
+        caption: April 2024 - Present
+        link: https://tcd.ie/
+        quote: >
+          Trinity College Dublin is Ireland’s leading university, inspiring generations of brilliant thinkers for over 400 years. Ranked 1st in Ireland and 98th in the world, Trinity provides world-class education in a research-centred, collaborative environment.  
+        description: | # this will include new lines to allow paragraphs
+          I am a member of the [Complex Software Laboratory](https://csl.scss.tcd.ie/) and [SFI Lero](https://lero.ie/) in [Trinity College Dublin](https://www.tcd.ie/), Ireland, where I work in collaboration with [Fidelity Investments](https://www.fidelityinvestments.ie/), Ireland, on accessibility testing.
+
+          Currently, my work focuses on the research and development of automated testing solutions to detect accessibility defects in web applications, and reduce the manual testing required by test engineers. I am assessing the usability of these solutions using the company’s existing CI/CD infrastructure and comparing them with the company’s existing testing methods.
+      - layout: left
+        border: weak
+        title: University College Dublin
+        sub_title: Tutor, TA, and Demonstrator
+        caption: September 2017 - January 2024
+        link: https://ucd.ie/
+        quote: >
+          University College Dublin is Ireland's global university, with over 160 years of education, an environment where undergraduate education, master’s and Ph.D. training, research, innovation and community engagement form a dynamic spectrum of activity.
+        description: | # this will include new lines to allow paragraphs
+          Throughout my Ph.D., each semester, I assisted the teaching of both undergraduate and master’s level students in modules covering Functional Programming, Operating Systems, and Software Engineering within the [School of Computer Science](https://ucd.ie/cs/) in [UCD](https://ucd.ie).
+
+          Within the role of Teaching Assistant (TA), I coordinated a team of up to 10 demonstrators for modules of approximately 200 students. I organised and supervised the grading of student assignments, and module labs/practicals/tutorials. I was recognised as a distinguished teaching assistant for the 2023-2024 academic year.
+
+          During my time as a tutor for the [UCD Computer Science Support Centre (CSSC)](https://csintranet.ucd.ie/CSSC/), I provided one-on-one assistance to students struggling with coursework from a range of modules in the School of Computer Science.
+      - layout: left
+        border: weak
+        title: Movidius @ Intel
+        sub_title: Test Automation Intern
+        caption: January 2019 - June 2019
+        link: https://movidius.com/
+        quote: >
+          Aquired by Intel in 2016 for 300 million, Movidius designs low-power processor chips for computer vision. Movidius VPU's enable demanding computer vision and AI workloads that achieve a balance of power efficiency, and compute performance.
+        description: | # this will include new lines to allow paragraphs
+          During my Ph.D., I completed an industry internship with [Movidius](https://movidius.com/), a company that designs low-power processing chips for computer vision, and was acquired by [Intel](https://intel.com/) in September 2016.
+
+          While at [Movidius](https://movidius.com/), I researched integration testing methods for their newly developed Vision Processing Units (VPU's) and their accompanying development API platform. This required the development and configuration of a custom CI/CD pipeline that incorporated both functional and performance testing with direct access to in-development VPU's and dependency hardware.
+      - layout: left
+        border: weak
+        title: Insight @ UCD
+        sub_title: Software Engineering Intern
+        caption: June 2017 - August 2017
+        link: https://insight-centre.org/
+        quote: >
+          Insight is one of the largest data analytics centres in Europe, with over 220 industry partners, supporting over 450 researchers from Irelands leading ICT clusters in areas from Fundamentals of Data Science to Trustworthy AI.
+        description: | # this will include new lines to allow paragraphs
+          After completing my undergraduate degree, I did an internship with [Insight the SFI research centre for data analytics]( https://insight-centre.org/) at [UCD](https://ucd.ie), where I worked alongside several physiotherapy researchers.
+
+          I extended the features and improved the performance of an existing Android application. The application was designed to guide recent knee or hip replacement patients through post-surgery recovery exercises with real time visualisation and feedback using a Unity avatar. The collection of physiotherapy research data for Ph.D. students was also a key part of the project.
+      - layout: left
+        border: weak
+        title: Bruwind @ VUB
+        sub_title: Software Engineering Intern
+        caption: June 2016 - August 2016
+        link: https://avrg.vub.be/
+        quote: >
+          Bruwind has pioneered test and monitoring equipment, data-warehousing solutions and advanced analysis for the offshore wind industry, and currently operates monitoring equipment on 8 offshore wind turbine substructures in the Belgian North Sea.
+        description: | # this will include new lines to allow paragraphs
+          In the third year of my undergraduate degree, I completed an internship with [Bruwind - Brussels Wind Energy Research Institute](https://avrg.vub.be/) at [Vrije Universiteit Brussels](https://vub.be). This internship was a part of the [IEASTE](https://iaeste.org/) internship exchange program, providing professional experience and cross-cultural skills for students.
+
+          While at [Bruwind](https://avrg.vub.be/), I extended the functionality and features of an existing web-based application that monitored, analysed and reported the stability of turbine farms in real time, while also collecting data for targeted design optimisations and life-time estimation of turbine substructures.
+      - layout: left
+        title: Intel Ireland
+        sub_title: Software Engineering Intern
+        caption: June 2014/15 - August 2014/15
+        link: https://intel.com/
+        quote: >
+          Since 1989, Intel has invested over €30 billion in Ireland creating the most advanced industrial campus in Europe. Today, alongside advanced manufacturing, Intel in Ireland represents a diverse set of activities from cutting edge research to design.
+        description: | # this will include new lines to allow paragraphs
+          At the beginning of my undergraduate degree, I completed internships with [Intel](https://intel.com/), where I joined a team focused on developing a software suite to aid silicon manufacturing.
+
+          My first summer with the team, I was responsible for the development of internal web applications that allowed the display, filtering, and update of data within relational databases. I also assisted a development team in migrating from Apache Subversion to a Git version control system. 
+
+          When I returned the following summer, I built a prototype sensor platform using an Intel Galileo Gen 2 board and Arduino sensor modules for deployment in Intel's silicon manufacturing environment. The platform collected environmental data for storage in an SQL database and a web application provided real time monitoring and visualisation of the data for the detection of manufacturing faults.
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "scripts/",
+  ]
