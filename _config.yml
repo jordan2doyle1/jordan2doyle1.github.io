@@ -103,7 +103,7 @@ content:
   - title: Publications
     layout: text
     content: | # this will include new lines to allow paragraphs
-      * **Jordan Doyle**, Thomas Laurent, and Anthony Ventresque. PADRAIG: Precise Android Automated Input Generation. In [*2024 24th IEEE International Conference on Software Quality, Reliability, and Security (QRS)*](https://qrs24.techconf.org/), IEEE, 2024
+      * **Jordan Doyle**, Thomas Laurent, and Anthony Ventresque. [PADRAIG: Precise Android Automated Input Generation](https://doi.org/10.1109/QRS62785.2024.00017). In [*2024 24th IEEE International Conference on Software Quality, Reliability, and Security (QRS)*](https://qrs24.techconf.org/), IEEE, 2024
       * **Jordan Doyle**, Thomas Laurent, and Anthony Ventresque. [Modelling android applications through static analysis and systematic exploratory testing](https://doi.org/10.1109/DSA59317.2023.00022). In [*2023 10th International Conference on Dependable Systems and Their Applications (DSA)*](https://dsa23.techconf.org/), pages 94–104. IEEE, 2023
       * **Jordan Doyle**, Takfarinas Saber, Paolo Arcaini, and Anthony Ventresque. [Improving mobile user interface testing with model driven monkey search](https://doi.org/10.1109/ICSTW52544.2021.00034). In [*2021 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW)*](https://icst2021.icmc.usp.br/), pages 138–145. IEEE, 2021
   - title: Experience
