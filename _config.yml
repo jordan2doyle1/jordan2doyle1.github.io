@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Jordan Doyle
-title: Research Software Engineer in Automated Software Testing
+title: AI/Postdoctoral Researcher in Automated Software Testing
 email: jordandoyle100@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -36,9 +36,9 @@ resume_pdf_file: Resume.pdf
 
 # Additional icon links
 additional_links:
-- title: Research Gate
-  icon: fab fa-researchgate
-  url: https://www.researchgate.net/profile/Jordan-Doyle-3
+  - title: Research Gate
+    icon: fab fa-researchgate
+    url: https://www.researchgate.net/profile/Jordan-Doyle-3
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -53,16 +53,16 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I recently defended my Ph.D. thesis with [SFI Lero](https://lero.ie/) and the [School of Computer Science](https://ucd.ie/cs/) in [University College Dublin](https://ucd.ie), Ireland. I am currently a Research Software Engineer in the [School of Computer Science and Statistics](https://tcd.ie/scss/) at [Trinity College Dublin](https://tcd.ie/), Ireland, where I am also a member of the [Complex Software Laboratory](https://csl.scss.tcd.ie/), [SFI Lero](https://lero.ie/), and I work in conjunction with [Fidelity Investments](https://fidelityinvestments.ie/), Ireland.
+  I completed my Ph.D. at the [School of Computer Science](https://ucd.ie/cs/) in [University College Dublin](https://ucd.ie). I currently work as a postdoctoral researcher at the [School of Computer Science and Statistics](https://tcd.ie/scss/) in [Trinity College Dublin](https://tcd.ie/), where I am also affiliated with the [Complex Software Laboratory](https://csl.scss.tcd.ie/), [SFI Lero](https://lero.ie/), and I work in collaboration with [ServiceNow](https://www.servicenow.com/). My research interest lies primarily in advanced Software Engineering practices, specifically developing and enhancing automation workflows and test generation solutions.
 
-  My interest is mainly in Software Engineering, with my research focusing on developing and improving automated test generation solutions. During my Ph.D., I developed an automated model-based approach to generate test inputs for Android mobile applications. Currently, I am collaborating with [Fidelity Investments](https://fidelityinvestments.ie/), Ireland, researching automated testing solutions to detect accessibility defects in web applications.
+  While my early work focused on an automated model-based approach to generate test inputs for Android applications, my current efforts focus on developing specialised testing frameworks - particularly those addressing internationalisation (i18n) and localisation (l10n) - to ensure global application compatibility. This work builds upon my previous collaborations, including research into automated accessibility (a11y) testing solutions for web applications at [Fidelity Investments](https://fidelityinvestments.ie/).
 
 content:
   # - title: Projects # Title for the section
   #   layout: list # Type of content section (list/text)
   #   content:
   #     - layout: left
-  #       border: weak  # Value of `weak` will display a weak border below this item. # Any 
+  #       border: weak  # Value of `weak` will display a weak border below this item. # Any
   #                     # other value (or no value) means no border will be displayed
   #       title: Project name
   #       link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
@@ -86,11 +86,11 @@ content:
         link: https://ucd.ie/cs/
         quote: >
           The School of Computer Science at University College Dublin is the largest computer science department in Ireland, with top ranking B.Sc. Honours, Masters, and structured Ph.D. degree programmes.
-      - layout: left 
+      - layout: left
         sub_title: Ph.D. in Computer Science
         caption: September 2017 - January 2024
         description: | # this will include new lines to allow paragraphs
-          I completed my Ph.D. degree in [UCD](https://ucd.ie) with [SFI Lero](https://lero.ie/) and the [Complex Software Laboratory](https://csl.scss.tcd.ie/). I learned the skills to conduct valuable research and effectively communicate and solve complex problems. Over the course of the degree, I published and presented three research papers at highly regarded conferences.
+          I completed my Ph.D. degree in [University College Dublin](https://ucd.ie) with the [Complex Software Laboratory](https://csl.scss.tcd.ie/). I learned the skills to conduct valuable research and effectively communicate and solve complex problems. Over the course of the degree, I published and presented three research papers at highly regarded conferences.
 
           The thesis for my Ph.D. focused on how I designed, implemented, and evaluated both a comprehensive model of Android mobile applications using a combination of static and dynamic analysis and an automated model-based approach to generate test inputs for Android mobile applications using those same models.
 
@@ -99,16 +99,16 @@ content:
         sub_title: B.Sc. in Computer Science (2:1)
         caption: September 2013 - August 2017
         description: | # this will include new lines to allow paragraphs
-          During my undergraduate degree at [UCD](https://ucd.ie), I learnt lots of key skills such as teamwork and project management. The core of the degree focused on well-rounded background knowledge and practical skills, while later years focused on software development and the principles of programming.
+          During my undergraduate degree at [University College Dublin](https://ucd.ie), I learnt lots of key skills such as teamwork and project management. The core of the degree focused on well-rounded background knowledge and practical skills, while later years focused on software development and the principles of programming.
 
           The final part of the degree was a final year project that included a research report and a presentation to the school of computer science faculty. For this project, I designed and implemented an end-to-end eReceipts delivery system consisting of a backend database and server, application layer protocol, and a mobile frontend application.
   - title: Publications
     layout: text
     content: | # this will include new lines to allow paragraphs
       <mark>Conference Paper</mark> **Jordan Doyle**, Thomas Laurent, and Anthony Ventresque. [PADRAIG: Precise Android Automated Input Generation](https://doi.org/10.1109/QRS62785.2024.00017). In [*2024 24th International Conference on Software Quality, Reliability, and Security (QRS)*](https://qrs24.techconf.org/), pages 72--83. IEEE, 2024
-      
+
       <mark>Conference Paper</mark> **Jordan Doyle**, Thomas Laurent, and Anthony Ventresque. [Modelling android applications through static analysis and systematic exploratory testing](https://doi.org/10.1109/DSA59317.2023.00022). In [*2023 10th International Conference on Dependable Systems and Their Applications (DSA)*](https://dsa23.techconf.org/), pages 94–104. IEEE, 2023
-      
+
       <mark>Conference Paper</mark> **Jordan Doyle**, Takfarinas Saber, Paolo Arcaini, and Anthony Ventresque. [Improving mobile user interface testing with model driven monkey search](https://doi.org/10.1109/ICSTW52544.2021.00034). In [*2021 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW)*](https://icst2021.icmc.usp.br/), pages 138–145. IEEE, 2021
   - title: Experience
     layout: list
@@ -116,15 +116,41 @@ content:
       - layout: left
         border: weak
         title: Trinity College Dublin
-        sub_title: Research Software Engineer
+        sub_title: Postdoctoral Researcher
         caption: April 2024 - Present
         link: https://tcd.ie/
         quote: >
-          Trinity College Dublin is Ireland’s leading university, inspiring generations of brilliant thinkers for over 400 years. Ranked 1st in Ireland and 98th in the world, Trinity provides world-class education in a research-centred, collaborative environment.  
+          Trinity College Dublin is Ireland’s leading university, inspiring generations of brilliant thinkers for over 400 years. Ranked 1st in Ireland and 98th in the world, Trinity provides world-class education in a research-centred, collaborative environment.
         description: | # this will include new lines to allow paragraphs
-          I am a member of the [Complex Software Laboratory](https://csl.scss.tcd.ie/) and [SFI Lero](https://lero.ie/) in [Trinity College Dublin](https://www.tcd.ie/), Ireland, where I work in collaboration with [Fidelity Investments](https://www.fidelityinvestments.ie/), Ireland, on accessibility testing.
+          I am a member of the [Complex Software Laboratory](https://csl.scss.tcd.ie/) in [Trinity College Dublin](https://www.tcd.ie/), where I conduct research focused on improving the quality, reliability, and maintainability of complex software systems through the application of automated testing and test generation techniques.
 
-          Currently, my work focuses on the research and development of automated testing solutions to detect accessibility defects in web applications, and reduce the manual testing required by test engineers. I am assessing the usability of these solutions using the company’s existing CI/CD infrastructure and comparing them with the company’s existing testing methods.
+          I currently work in collaboration with [ServiceNow](https://www.servicenow.com/) on the research and development of automated approaches for internationalisation (i18n) and localisation (l10n) testing, with the goal of identifying defects more efficiently and reducing the manual effort required during software quality assurance processes.
+
+          Previously, I collaborated with [Fidelity Investments](https://www.fidelityinvestments.ie/) on automated accessibility testing, where I investigated approaches for detecting accessibility-related defects in web applications and evaluated the practical adoption of research tools within an industrial testing environment.
+      - layout: left
+        border: weak
+        title: ServiceNow
+        sub_title: AI Researcher
+        caption: August 2025 - Present
+        link: https://www.servicenow.com/
+        quote: >
+          ServiceNow is a fast-paced global leader in AI-driven digital workflow solutions, renowned for driving digital transformation and fostering a culture of innovation. ServiceNow is trusted by many of the world’s largest enterprises.
+        description: | # this will include new lines to allow paragraphs
+          While a postdoctoral researcher at [Trinity College Dublin](https://www.tcd.ie/), I am working in collaboration with [ServiceNow](https://www.servicenow.com/) on the research and development of automated approaches for internationalisation (i18n) and localisation (l10n) testing within large-scale software systems.
+
+          Specifically, my work focuses on the design, implementation and evaluation of automated solutions capable of detecting i18n and l10n defects in the [ServiceNow](https://www.servicenow.com/) platform. The research involves investigating challenges associated with validating software behaviour across different languages, regions, and cultural settings, including issues related to translated content, user interface adaptation, and regional configuration.
+      - layout: left
+        border: weak
+        title: Fidelity Investments
+        sub_title: Research Software Engineer
+        caption: April 2024 - April 2025
+        link: https://www.fidelityinvestments.ie/
+        quote: >
+          Fidelity Investments is a recognised leader in financial services with a reputation for innovation, operational excellence, and strong governance. Known for it scale, stability, and commitment to excellence, Fidelity serves millions of customer globally.
+        description: | # this will include new lines to allow paragraphs
+          During my postdoctoral position at [Trinity College Dublin](https://www.tcd.ie/), I worked in collaboration with [Fidelity Investments](https://www.fidelityinvestments.ie/) on automated accessibility testing for modern web applications.
+
+          The focus of my research was the development and deployment of an automated solution to detect element reflow defects that occur when accessibility features, such as browser zoom, or text scaling, are used. I extended and adapted existing research tools to integrate with Fidelity's enterprise testing environment and evaluated their effectiveness, usability, and scalability within an industry setting.
       - layout: left
         border: weak
         title: University College Dublin
@@ -134,11 +160,11 @@ content:
         quote: >
           University College Dublin is Ireland's global university, with over 160 years of education, an environment where undergraduate education, master’s and Ph.D. training, research, innovation and community engagement form a dynamic spectrum of activity.
         description: | # this will include new lines to allow paragraphs
-          Throughout my Ph.D., each semester, I assisted the teaching of both undergraduate and master’s level students in modules covering Functional Programming, Operating Systems, and Software Engineering within the [School of Computer Science](https://ucd.ie/cs/) in [UCD](https://ucd.ie).
+          Throughout my Ph.D., each semester, I assisted the teaching of both undergraduate and master’s level students in modules covering Functional Programming, Operating Systems, and Software Engineering within the [School of Computer Science](https://ucd.ie/cs/) in [University College Dublin](https://ucd.ie).
 
           Within the role of Teaching Assistant (TA), I coordinated a team of up to 10 demonstrators for modules of approximately 200 students. I organised and supervised the grading of student assignments, and module labs/practicals/tutorials. I was recognised as a distinguished teaching assistant for the 2023-2024 academic year.
 
-          During my time as a tutor for the [UCD Computer Science Support Centre (CSSC)](https://csintranet.ucd.ie/CSSC/), I provided one-on-one assistance to students struggling with coursework from a range of modules in the School of Computer Science.
+          While a tutor for the [UCD Computer Science Support Centre (CSSC)](https://csintranet.ucd.ie/CSSC/), I provided one-on-one academic support for a wide-range of undergraduate Computer Science modules. I helped students with complex theoretical concepts, debugging programming assignments, and developing effective problem-solving strategies.
       - layout: left
         border: weak
         title: Movidius @ Intel
@@ -160,7 +186,7 @@ content:
         quote: >
           Insight is one of the largest data analytics centres in Europe, with over 220 industry partners, supporting over 450 researchers from Irelands leading ICT clusters in areas from Fundamentals of Data Science to Trustworthy AI.
         description: | # this will include new lines to allow paragraphs
-          After completing my undergraduate degree, I did an internship with [Insight the SFI research centre for data analytics]( https://insight-centre.org/) at [UCD](https://ucd.ie), where I worked alongside several physiotherapy researchers.
+          After completing my undergraduate degree, I did an internship with [Insight the SFI research centre for data analytics]( https://insight-centre.org/) at [University College Dublin](https://ucd.ie), where I worked alongside several physiotherapy researchers.
 
           I extended the features and improved the performance of an existing Android application. The application was designed to guide recent knee or hip replacement patients through post-surgery recovery exercises with real time visualisation and feedback using a Unity avatar. The collection of physiotherapy research data for Ph.D. students was also a key part of the project.
       - layout: left
@@ -185,7 +211,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           At the beginning of my undergraduate degree, I completed internships with [Intel](https://intel.com/), where I joined a team focused on developing a software suite to aid silicon manufacturing.
 
-          My first summer with the team, I was responsible for the development of internal web applications that allowed the display, filtering, and update of data within relational databases. I also assisted a development team in migrating from Apache Subversion to a Git version control system. 
+          My first summer with the team, I was responsible for the development of internal web applications that allowed the display, filtering, and update of data within relational databases. I also assisted a development team in migrating from Apache Subversion to a Git version control system.
 
           When I returned the following summer, I built a prototype sensor platform using an Intel Galileo Gen 2 board and Arduino sensor modules for deployment in Intel's silicon manufacturing environment. The platform collected environmental data for storage in an SQL database and a web application provided real time monitoring and visualisation of the data for the detection of manufacturing faults.
 
@@ -202,15 +228,16 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "scripts/",
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "scripts/",
   ]
